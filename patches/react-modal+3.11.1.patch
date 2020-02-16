@@ -1,0 +1,21 @@
+diff --git a/node_modules/react-modal/lib/components/Modal.js b/node_modules/react-modal/lib/components/Modal.js
+index 20ee775..4c7e246 100644
+--- a/node_modules/react-modal/lib/components/Modal.js
++++ b/node_modules/react-modal/lib/components/Modal.js
+@@ -235,6 +235,7 @@ Modal.defaultProps = {
+     return document.body;
+   }
+ };
++
+ Modal.defaultStyles = {
+   overlay: {
+     position: "fixed",
+@@ -242,7 +243,7 @@ Modal.defaultStyles = {
+     left: 0,
+     right: 0,
+     bottom: 0,
+-    backgroundColor: "rgba(255, 255, 255, 0.75)"
++    backgroundColor: "rgba(128, 222, 234, .7)"
+   },
+   content: {
+     position: "absolute",
