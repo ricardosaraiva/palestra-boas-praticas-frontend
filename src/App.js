@@ -1,9 +1,10 @@
 import React from 'react';
+import Contact from './view/Contact';
 
 function App() {
   return (
-    <div className="App">
-      Hello world
+    <div>
+      <Contact />
     </div>
   );
 }
